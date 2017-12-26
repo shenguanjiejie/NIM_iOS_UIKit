@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.subspec 'Full' do |cs|	
     cs.source_files = 'NIMKit/NIMKit/**/*.{h,m}' 
     cs.dependency 'NIMKit/Core' 
-    cs.dependency 'NIMSDK', '~> 4.5.0' 
+    cs.dependency 'NIMSDK', '~> 4.4.0' 
   end 
 
   s.subspec 'Lite' do |cs|  
